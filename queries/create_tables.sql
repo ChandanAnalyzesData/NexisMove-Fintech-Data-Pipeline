@@ -1,3 +1,6 @@
+DROP TABLE IF EXISTS transactions;
+DROP TABLE IF EXISTS users;
+
 -- 1. Create the Parent Profiles Table
 CREATE TABLE users (
     user_id VARCHAR(50) PRIMARY KEY,
